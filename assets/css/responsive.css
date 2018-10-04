@@ -1,0 +1,73 @@
+
+.mobile-view{
+	display:none;
+}
+
+@media only screen and (max-width:991px) {
+	.mobile-view{
+		display:inline;
+		width:50%;
+	}
+	
+	.mobile-card{
+		padding: 0px !important;
+		width: 50% !important;
+	}
+	
+	.remove-col{
+		display:none;
+	}
+	
+	.mobile-top-margin{
+		    margin-top: 100px;
+	}
+	
+	.mobile-card-body{
+		margin-top: -70px ;
+	}
+	
+	.mobile-max-width{
+		max-width:none ;
+	}
+	
+	.mobile-countine-button{
+		margin-left: -39%;
+	}
+	
+	.web-view-fill{
+		margin-left: 36% !important;
+	}
+	
+	.mobile-title-button{
+		margin-top: 15% !important ;
+	}
+}
+
+
+@media only screen and (max-width:330px) {
+	.offtag{
+		top:-20px
+	}
+	
+	.mobile-fill-view{
+	  margin-left: 30% !important;
+	}
+	
+	.mobile-arrow-button{
+	    margin-left: -20% !important;
+	}
+}
+
+.custom-line{
+	line-height:1.5 !important;
+}
+
+.web-view-fill{
+    margin-left: 75%;
+    margin-top: 2%;
+}
+
+.web-view-highLighter{
+	left: 0px; 
+	width: 229.984px;
+}
