@@ -1,0 +1,18 @@
+.iconsDimension{
+	width: 35px !important; 
+	height: 35px !important;
+
+}
+
+.elm :hover {
+    -moz-transform: translate(-2px, -20px);
+    -ms-transform: translate(-2px, -20px);
+    -o-transform: translate(-2px, -20px);
+    -webkit-transform: translate(-2px, -20px);
+    /*transition-delay: 0.5s;*/
+    transform: translateY(-2px,-20px);
+}
+
+.liBottom{
+	margin-bottom: 15px !important;
+}
