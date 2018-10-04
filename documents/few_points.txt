@@ -1,0 +1,28 @@
+
+3) after half pay from front end (order history and download work) change submission to "submit final copy"
+4) Submission button becomes enable if a revision is marked invalid from new revision request.
+5) Revisions marked as invalid on new revisions tab, they will not go to the writer.
+
+
+8) Revised work> Multiple files are not being carried to admin portal. Edit option is not retaining files. Document note validation. same for submission. single slot in edit modal.
+9) View notes only if avaiable in all revisions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2) remove order that have status 2 ( showing to all writers)
+6) Submissions> Disable MR button in case of half submission
+7) Revised work notifications and sorting> Same as submission
+1) assign agent from unpaid orders
+

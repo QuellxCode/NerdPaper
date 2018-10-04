@@ -1,6 +1,0 @@
-User-Agent: *
-Disallow: 
-Disallow: /index.php/payment
-
-
-Sitemap: https://nerdpapers.com/sitemap.xml

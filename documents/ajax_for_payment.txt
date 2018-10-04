@@ -1,0 +1,36 @@
+var getorder_id =  document.getElementById("getorderid").value;
+
+           $.ajax({
+            type: "POST",
+            url: "<?php echo base_url() ?>index.php/order/unpaid_to_neworder", 
+            data: {orderid : gerorder_id,checkbox_status : data},
+            dataType: "text",  
+            cache:false,
+            success: function(data){
+                if(data == 'success')
+                {
+                   alert("work done Ist");
+                  
+               }
+
+           }
+
+       });
+
+
+$.ajax({
+ type: "POST",
+ url: "<?php echo base_url() ?>index.php/order/unpaid_to_neworder", 
+ data: {orderid : gerorder_id,checkbox_status : data},
+ dataType: "text",  
+ cache:false,
+ success: function(data){
+     if(data == 'success')
+     {
+        alert("work done");
+       
+    }
+
+}
+
+});
